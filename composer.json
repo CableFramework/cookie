@@ -1,0 +1,24 @@
+{
+    "name": "cable/cable-cookie",
+    "description": "MIT",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "anonymframework",
+            "email": "vahit.serif119@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cable\\Cookie\\": "src/Cable/Component/Cookie",
+            "Cable\\Session\\": "src/Cable/Component/Session"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/http-foundation": "^3.3",
+        "cable/cable-container": "^1.2",
+        "cable/cable-facades": "^1.0"
+    }
+}
